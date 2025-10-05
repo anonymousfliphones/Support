@@ -38,8 +38,9 @@ class SplashActivity : AppCompatActivity() {
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
     }
     
+    @SuppressLint("MissingSuperCall")
     override fun onBackPressed() {
         // Disable back button during splash screen
-        // Do nothing
+        // Do nothing - don't call super to prevent going back
     }
 }

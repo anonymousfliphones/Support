@@ -31,7 +31,7 @@
         
         <!-- Status bar -->
         <item name="android:statusBarColor">@color/primary_dark</item>
-        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
         
         <!-- Navigation bar -->
         <item name="android:navigationBarColor">@color/surface</item>
@@ -82,13 +82,13 @@
     <style name="TextAppearance.TecheazSupport.Headline1" parent="TextAppearance.Material3.HeadlineLarge">
         <item name="android:textColor">@color/text_primary</item>
         <item name="android:textSize">28sp</item>
-        <item name="android:fontWeight">600</item>
+        <item name="android:fontWeight" tools:targetApi="o">600</item>
     </style>
     
     <style name="TextAppearance.TecheazSupport.Headline2" parent="TextAppearance.Material3.HeadlineMedium">
         <item name="android:textColor">@color/text_primary</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:fontWeight">600</item>
+        <item name="android:fontWeight" tools:targetApi="o">600</item>
     </style>
     
     <style name="TextAppearance.TecheazSupport.Body1" parent="TextAppearance.Material3.BodyLarge">
