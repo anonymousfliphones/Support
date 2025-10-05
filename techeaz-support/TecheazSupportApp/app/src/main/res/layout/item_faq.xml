@@ -57,7 +57,7 @@
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:textColor="@color/text_primary"
-                    android:lineSpacing="1.2"
+                    android:lineSpacingMultiplier="1.2"
                     tools:text="How do I get started with Techeaz?" />
 
                 <ImageView
@@ -92,7 +92,7 @@
                 android:text="Welcome to Techeaz! To get started, simply create an account on our website..."
                 android:textSize="14sp"
                 android:textColor="@color/text_secondary"
-                android:lineSpacing="1.4"
+                android:lineSpacingMultiplier="1.4"
                 tools:text="Welcome to Techeaz! To get started, simply create an account on our website, verify your email address, and follow our quick setup guide. You'll be up and running in minutes!" />
 
             <!-- Tags -->

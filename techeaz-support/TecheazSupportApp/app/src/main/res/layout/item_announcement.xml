@@ -71,7 +71,7 @@
                 android:text="We'll be performing routine maintenance on Sunday, January 21st from 2:00 AM - 4:00 AM EST. During this time, some services may be temporarily unavailable."
                 android:textSize="14sp"
                 android:textColor="@color/text_secondary"
-                android:lineSpacing="1.4"
+                android:lineSpacingMultiplier="1.4"
                 android:layout_marginBottom="8dp"
                 tools:text="We'll be performing routine maintenance on Sunday, January 21st from 2:00 AM - 4:00 AM EST. During this time, some services may be temporarily unavailable." />
 
