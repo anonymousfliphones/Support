@@ -1,0 +1,143 @@
+{
+  "app": {
+    "name": "Techeaz Support",
+    "description": "Get help and find answers to frequently asked questions",
+    "version": "1.0.0"
+  },
+  "contact": {
+    "email": "support@techeaz.com",
+    "phone": "+1-555-TECHEAZ",
+    "hours": "Monday - Friday: 9:00 AM - 6:00 PM EST",
+    "response_time": "We typically respond within 24 hours"
+  },
+  "categories": [
+    {
+      "id": "general",
+      "name": "General Questions",
+      "description": "Common questions about our services",
+      "icon": "❓"
+    },
+    {
+      "id": "account",
+      "name": "Account & Billing",
+      "description": "Account management and billing inquiries",
+      "icon": "👤"
+    },
+    {
+      "id": "technical",
+      "name": "Technical Support",
+      "description": "Technical issues and troubleshooting",
+      "icon": "🔧"
+    },
+    {
+      "id": "getting-started",
+      "name": "Getting Started",
+      "description": "Help for new users",
+      "icon": "🚀"
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "category": "getting-started",
+      "question": "How do I get started with Techeaz?",
+      "answer": "Welcome to Techeaz! To get started, simply create an account on our website, verify your email address, and follow our quick setup guide. You'll be up and running in minutes!",
+      "tags": ["setup", "account", "beginner"],
+      "helpful": 0,
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "category": "account",
+      "question": "How do I reset my password?",
+      "answer": "To reset your password, go to the login page and click 'Forgot Password'. Enter your email address and we'll send you a secure link to create a new password. The link expires after 1 hour for security.",
+      "tags": ["password", "security", "login"],
+      "helpful": 0,
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": 3,
+      "category": "account",
+      "question": "How do I update my billing information?",
+      "answer": "You can update your billing information by logging into your account and navigating to Settings > Billing. From there, you can update your payment method, billing address, and view your invoice history.",
+      "tags": ["billing", "payment", "account"],
+      "helpful": 0,
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": 4,
+      "category": "technical",
+      "question": "Why is my connection slow?",
+      "answer": "Slow connections can be caused by several factors: network congestion, server load, or local internet issues. Try refreshing the page, checking your internet connection, or clearing your browser cache. If the problem persists, contact our technical support team.",
+      "tags": ["performance", "connection", "troubleshooting"],
+      "helpful": 0,
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": 5,
+      "category": "general",
+      "question": "What browsers are supported?",
+      "answer": "Techeaz works best on modern browsers including Chrome (version 90+), Firefox (version 88+), Safari (version 14+), and Edge (version 90+). We recommend keeping your browser updated for the best experience.",
+      "tags": ["browser", "compatibility", "requirements"],
+      "helpful": 0,
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": 6,
+      "category": "general",
+      "question": "Is my data secure?",
+      "answer": "Yes! We take security seriously. All data is encrypted in transit and at rest using industry-standard encryption. We're SOC 2 Type II compliant and regularly undergo security audits. Your data is never shared with third parties without your explicit consent.",
+      "tags": ["security", "privacy", "data"],
+      "helpful": 0,
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": 7,
+      "category": "technical",
+      "question": "How do I export my data?",
+      "answer": "You can export your data anytime from your account dashboard. Go to Settings > Data Export, select the data you want to export, and choose your preferred format (CSV, JSON, or PDF). Large exports may take a few minutes to process.",
+      "tags": ["export", "data", "backup"],
+      "helpful": 0,
+      "last_updated": "2024-01-15"
+    },
+    {
+      "id": 8,
+      "category": "account",
+      "question": "How do I cancel my subscription?",
+      "answer": "We're sorry to see you go! You can cancel your subscription at any time from Settings > Billing > Manage Subscription. Your access will continue until the end of your current billing period, and you can reactivate anytime.",
+      "tags": ["subscription", "cancel", "billing"],
+      "helpful": 0,
+      "last_updated": "2024-01-15"
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "type": "info",
+      "title": "System Maintenance Scheduled",
+      "message": "We'll be performing routine maintenance on Sunday, January 21st from 2:00 AM - 4:00 AM EST. During this time, some services may be temporarily unavailable.",
+      "date": "2024-01-15",
+      "active": true
+    }
+  ],
+  "quick_actions": [
+    {
+      "title": "Contact Support",
+      "description": "Get in touch with our support team",
+      "action": "mailto:support@techeaz.com",
+      "icon": "📧"
+    },
+    {
+      "title": "Check Service Status",
+      "description": "View current system status",
+      "action": "#status",
+      "icon": "🔍"
+    },
+    {
+      "title": "Request Feature",
+      "description": "Suggest a new feature",
+      "action": "#feature-request",
+      "icon": "💡"
+    }
+  ]
+}

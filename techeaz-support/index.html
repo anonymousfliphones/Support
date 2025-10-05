@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techeaz Support</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-spinner">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <p>Loading Techeaz Support...</p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-headset"></i>
+                    <h1 id="app-name">Techeaz Support</h1>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-outline" onclick="scrollToContact()">
+                        <i class="fas fa-envelope"></i> Contact Us
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero">
+                <h2 id="app-description">Get help and find answers to frequently asked questions</h2>
+                <div class="search-container">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="search-input" placeholder="Search for help..." autocomplete="off">
+                        <button id="search-clear" class="search-clear" style="display: none;">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Announcements -->
+            <section id="announcements-section" class="announcements" style="display: none;">
+                <div id="announcements-container"></div>
+            </section>
+
+            <!-- Quick Actions -->
+            <section class="quick-actions">
+                <h3>Quick Actions</h3>
+                <div id="quick-actions-container" class="quick-actions-grid">
+                    <!-- Quick actions will be loaded dynamically -->
+                </div>
+            </section>
+
+            <!-- Category Filter -->
+            <section class="categories">
+                <h3>Browse by Category</h3>
+                <div id="category-filter" class="category-filter">
+                    <button class="category-btn active" data-category="all">
+                        <i class="fas fa-th-large"></i> All Categories
+                    </button>
+                    <!-- Categories will be loaded dynamically -->
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="faq-section">
+                <div class="section-header">
+                    <h3>Frequently Asked Questions</h3>
+                    <div class="results-info">
+                        <span id="results-count">0 articles found</span>
+                    </div>
+                </div>
+                
+                <!-- No Results Message -->
+                <div id="no-results" class="no-results" style="display: none;">
+                    <i class="fas fa-search"></i>
+                    <h4>No results found</h4>
+                    <p>Try adjusting your search terms or browse by category.</p>
+                </div>
+
+                <!-- FAQ Container -->
+                <div id="faq-container" class="faq-container">
+                    <!-- FAQ items will be loaded dynamically -->
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact-section" class="contact-section">
+                <div class="contact-card">
+                    <h3><i class="fas fa-life-ring"></i> Need More Help?</h3>
+                    <p>Can't find what you're looking for? Our support team is here to help!</p>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email Support</strong>
+                                <p id="contact-email">support@techeaz.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone Support</strong>
+                                <p id="contact-phone">+1-555-TECHEAZ</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Business Hours</strong>
+                                <p id="contact-hours">Monday - Friday: 9:00 AM - 6:00 PM EST</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-reply"></i>
+                            <div>
+                                <strong>Response Time</strong>
+                                <p id="response-time">We typically respond within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-actions">
+                        <a href="#" id="email-link" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Send Email
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Techeaz. All rights reserved.</p>
+                <p class="version">Support App <span id="app-version">v1.0.0</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
